@@ -14,3 +14,9 @@ You can pass specific project name as a parameter.
 
 Update-Package –reinstall -ProjectName SampleApp
 
+**********************************************************************************************************************************************************************************************************************************************************************
+http://emraharal.com/2019/04/01/maxreceivedmessagesize-and-maxbuffersize-in-app-and-web-config/
+
+The maximum message size quota for incoming messages (XXXX) has been exceeded.
+To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+**********************************************************************************************************************************************************************************************************************************************************************
