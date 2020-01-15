@@ -1,4 +1,4 @@
-# ErrorSolution
+# Error And Solution Repo 
 
 https://stackoverflow.com/questions/32254439/nuget-packages-are-missing
   
