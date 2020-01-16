@@ -20,3 +20,7 @@ http://emraharal.com/2019/04/01/maxreceivedmessagesize-and-maxbuffersize-in-app-
 The maximum message size quota for incoming messages (XXXX) has been exceeded.
 To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
 **********************************************************************************************************************************************************************************************************************************************************************
+http://www.cihanozhan.com/asp-net-web-api-hatasi-message-an-error-has-occurred/
+
+İf you get message like this below and want to see detailed error message visit the link.
+<b>Web Api Error: "Message": "An error has occurred."</b> 
