@@ -24,3 +24,6 @@ http://www.cihanozhan.com/asp-net-web-api-hatasi-message-an-error-has-occurred/
 
 İf you get message like this below and want to see detailed error message visit the link.
 <b>Web Api Error: "Message": "An error has occurred."</b> 
+***********************************************************************************************************************************************
+<b>Xml Parser in Sql Server</b>
+https://www.mshowto.org/t-sql-ile-xml-parse-islemi-nasil-yapilir.html
