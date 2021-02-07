@@ -25,5 +25,12 @@ http://www.cihanozhan.com/asp-net-web-api-hatasi-message-an-error-has-occurred/
 İf you get message like this below and want to see detailed error message visit the link.
 <b>Web Api Error: "Message": "An error has occurred."</b> 
 ***********************************************************************************************************************************************
-<b>Xml Parser in Sql Server</b>
+<b>Xml Parser in Sql Server</b><br/>
 https://www.mshowto.org/t-sql-ile-xml-parse-islemi-nasil-yapilir.html
+***********************************************************************************************************************************************
+<b>When you get error to find  file in angular V11, check below solution.</b><br/>
+"../node_modules/jquery/dist/jquery.js",
+ 
+to
+
+"./node_modules/jquery/dist/jquery.js", 
