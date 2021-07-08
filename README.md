@@ -34,3 +34,13 @@ https://www.mshowto.org/t-sql-ile-xml-parse-islemi-nasil-yapilir.html
 to
 
 "./node_modules/jquery/dist/jquery.js", 
+***************************************************************
+<b>Error: Server was unable to process request. ---> An unsecured or incorrectly secured fault was received from the other party. See the inner FaultException for the fault code and detail. ---> An error occurred when verifying security for the message. </b>
+ 
+Solution: This is a very obscure fault that WCF services throw. The issue is that WCF is unable to verify the security of the message that was passed to the service.
+
+This is almost always because of a server time skew. The remote server and the client's system time must be within (typically) 10 minutes of each other. If they are not, security validation will fail.
+
+I'd call eloqua.com and find out what their server time is, and compare that to your server time.
+https://stackoverflow.com/questions/1484601/wcf-gives-an-unsecured-or-incorrectly-secured-fault-error/2031487
+
